@@ -1,21 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>个人介绍</title>
+    <meta charset="UTF-8">
+    <title>学术简历 - 袁超</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin: 2rem 0 1.5rem;
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+
+        .timeline-item {
+            margin: 1.2rem 0;
+            padding-left: 1.8rem;
+            border-left: 3px solid #ecf0f1;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 8px;
+            width: 13px;
+            height: 13px;
+            background: #3498db;
+            border-radius: 50%;
+        }
+
+        .time-period {
+            color: #7f8c8d;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .publication-item,
+        .patent-item {
+            background: #f8f9fa;
+            padding: 1.2rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            transition: transform 0.2s ease;
+        }
+
+        .publication-item:hover,
+        .patent-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .authors {
+            color: #3498db;
+            font-weight: 500;
+        }
+
+        .journal {
+            font-style: italic;
+            color: #95a5a6;
+        }
+
+        .patent-number {
+            font-family: 'Courier New', monospace;
+            color: #27ae60;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 0.95em;
+            }
+            .section-title {
+                font-size: 1.3em;
+            }
+        }
+    </style>
 </head>
 <body>
+    <h1 style="text-align: center; color: #2c3e50; margin-bottom: 2.5rem;">袁超 学术简历</h1>
 
-<h1>我的论文</h1>
-<ul>
-    <li><strong>Renyong Wu, Chao Yuan, Ning Zhang, Kim-Kwang Raymond Choo.</strong> A Two-Dimensional Vectorized Secure Transmission Scheme for Wireless Communications. <em>IEEE Transactions on Information Forensics and Security</em></li>
-</ul>
+    <section class="experience">
+        <h2 class="section-title">学术经历</h2>
+        <div class="timeline-item">
+            <span class="time-period">2017 - 至今</span>
+            <strong>蚂蚁集团</strong> 技术专家
+        </div>
+        <div class="timeline-item">
+            <span class="time-period">2014 - 2017</span>
+            <strong>湖南大学</strong> 软件工程 硕士
+        </div>
+        <div class="timeline-item">
+            <span class="time-period">2010 - 2014</span>
+            <strong>湖南大学</strong> 通信工程 本科
+        </div>
+    </section>
 
-<h1>我的经历</h1>
-<ul>
-    <li><strong>2017-至今:</strong> 蚂蚁集团 技术专家</li>
-    <li><strong>2014-2017:</strong> 湖南大学 软件工程 硕士</li>
-    <li><strong>2010-2014:</strong> 湖南大学 通信工程 本科</li>
-</ul>
+    <section class="publications">
+        <h2 class="section-title">学术论文</h2>
+        <div class="publication-item">
+            <div class="authors">Renyong Wu, Chao Yuan, Ning Zhang, Kim-Kwang Raymond Choo.</div>
+            <div class="title">A Two-Dimensional Vectorized Secure Transmission Scheme for Wireless Communications.</div>
+            <div class="journal">IEEE Transactions on Information Forensics and Security. 2018</div>
+        </div>
+    </section>
 
+    <section class="patents">
+        <h2 class="section-title">专利成果</h2>
+        <div class="patent-item">
+            <div class="inventors">袁超, 李凡, 陈晓可, 张愉.</div>
+            <div class="title">目标对象确定方法及装置</div>
+            <div class="meta">2021.07 中国 <span class="patent-number">CN113553270A</span></div>
+        </div>
+        <div class="patent-item">
+            <div class="inventors">袁超, 张愉, 张梓豪, 李凡.</div>
+            <div class="title">数据处理方法以及装置</div>
+            <div class="meta">2021.07 中国 <span class="patent-number">CN115145982A</span></div>
+        </div>
+    </section>
 </body>
 </html>
