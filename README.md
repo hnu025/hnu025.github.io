@@ -26,8 +26,8 @@
 **Renyong Wu**, **Chao Yuan**, Ning Zhang, Kim-Kwang Raymond Choo.  
 "A Two-Dimensional Vectorized Secure Transmission Scheme for Wireless Communications".  
 *IEEE Transactions on Information Forensics and Security*  
-**2018** | JCR Q1 (IF:7.231)  
-DOI: [10.1109/TIFS.2018.xxxxxxx](https://doi.org/10.1109/TIFS.2018.xxxxxxx)
+**2019** | JCR Q1 (IF:7.231)  
+DOI: [10.1109/TIFS.2019.xxxxxxx](https://ieeexplore.ieee.org/document/8907877)
 
 ---
 
@@ -44,26 +44,3 @@ _中国国家知识产权局_ | 2021年7月
 _中国国家知识产权局_ | 2021年7月  
 
 ---
-
-### 格式说明：
-1. **层级结构**：采用`#`/`##`标题分级，配合水平分割线`---`
-2. **学术规范**：
-   - 论文标题使用双引号
-   - 期刊名称斜体表示
-   - 专利号采用代码块格式
-3. **视觉优化**：
-   - 使用学术相关Emoji符号（📚/📄/📜）
-   - 关键信息加粗显示
-   - 附加研究方向和期刊影响因子
-4. **扩展信息**：
-   - 添加地理标识（杭州）
-   - 包含DOI链接模板
-   - 标注知识产权局全称
-
-建议在支持CSS渲染的平台（如GitHub Pages）使用时，可添加如下样式增强效果：
-
-```css
-/* 可选样式增强 */
-body {font-family: "Times New Roman", SimSun;}
-code {color: #2ecc71; font-weight: bold;}
-a[href^="doi"] {color: #3498db; text-decoration: underline;}
